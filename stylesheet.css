@@ -1,0 +1,55 @@
+body {
+    background-color: #000;
+  }
+
+
+h1 {
+
+    color: #0f0;
+    font-family: verdana;
+}
+
+
+#catagories
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+#viewer
+{
+    display: flex;
+    justify-content: center;
+}
+
+#hidden {
+        display: none;
+}
+
+#ani1 {
+    animation: 1s fadeIn;
+  animation-fill-mode: forwards;
+}
+#ani2 {
+    display: none;
+}
+#ani3 {
+    display: none;
+}
+#ani4 {
+    display: none;
+}
+#ani5 {
+    display: none;
+}
+#ani6 {
+    display: none;
+}
+#ani7 {
+    display: none;
+}
+
+#animation {
+    display: visible;
+}
