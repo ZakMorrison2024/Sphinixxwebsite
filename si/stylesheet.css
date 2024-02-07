@@ -1,0 +1,104 @@
+body
+{
+    background-color: #000;
+}
+
+h1{
+color: #0f0;
+font-family: verdana;
+}
+
+h2{
+color: #0f0;
+font-family: verdana;
+}
+
+h3{
+        color: #0f0;
+        font-family: verdana;
+        }
+
+p{
+            color: #0f0;
+            font-family: verdana;
+            }
+
+        
+#catagories
+{
+    display: flex;
+    justify-content: space-between;
+    background-color: #000;
+}
+
+
+#viewer
+{
+    display: flex;
+    justify-content: center;
+}
+
+#hidden {
+        display: none;
+}
+
+#ani1 {
+    animation: 1s fadeIn;
+  animation-fill-mode: forwards;
+}
+#ani2 {
+    display: none;
+}
+#ani3 {
+    display: none;
+}
+#ani4 {
+    display: none;
+}
+#ani5 {
+    display: none;
+}
+#ani6 {
+    display: none;
+}
+#ani7 {
+    display: none;
+}
+
+#animation {
+    display: visible;
+}
+
+.center {
+    margin: 0;
+    display: flex;
+    justify-content: center; /* Horizontally center */
+    align-items: center; /* Vertically center */
+}
+.play_button
+{
+content: url("./game_img/play_1.png");
+}
+.play_button:hover
+{
+content: url("./game_img/play_2.png");
+}
+
+.socials
+{
+  background-color: #000;
+  width: 400px;
+  height: 80px;
+  margin: auto;
+  border: 3px solid #ff0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon
+{
+  height: 32px;
+  width: 32px;
+  padding: 10px;
+}
